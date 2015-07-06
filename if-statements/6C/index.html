@@ -8,7 +8,17 @@
 <body>
   <h1>JS Atomic 06C</h1>
   
+  <h2>If you collect the user's input as a string (i.e. without using parseInt() to turn it into an integer), does == work to compare the input to the stored secret number? Would === work? Which is best?</h2>
+  <p>Yes the == works without using parseInt. It would not work with ===. I feel that === is the best becasue there is only one way to get a true and that is for both sides to be completely equal in value and data type.</p>
   
+  <h2>If you collect the user's input as an integer (i.e. by using parseInt() to turn it into an integer), can you use == to compare? ===? Which is better in this case?</h2>
+  <p>Yes if you use pareInt with == it would work. Using parseInt with === is the only way to get === to work. Using === becuase that is the only way it would work and thus be "extra" true.</p>
+  
+  <h2>What is the difference between == and ===?</h2>
+  <p>=== is check that the value and the data type are equal on both sides. == only checks the value and will try and change the data type to be able to compare them. </p>
+  
+  <h2>In this case, does it make more sense to leave the user's guess as a string, or to convert it to an integer? Why? What are the relative advantages / disadvantages of each approach (particularly in terms of the types of new features that might be able to be added)?</h2>
+  <p>If we were only doing this I don't think it would matter if we left it as a string. I think that for saftey and the fact that we may add on to this later we would want to convert it to an integer to ensure that we are really only getting true when they are in fact true.</p>
   
 </body>
 </html>
