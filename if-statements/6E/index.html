@@ -8,17 +8,14 @@
 <body>
   <h1>JS Atomic 06D</h1>
   
-  <h2>Does it matter what order your if-statements are in?</h2>
+  <h2>Does it matter what order your if / else if statements happen? If you reorder them, does your program still produce correct output?</h2>
   <p>Yes, if you go from youngest to oldest it will never get to the end of the if else statement due to how you have to write the age and greater or less than statements.</p>
   
-  <h2>When testing ranges, did you use &&, ||, or something else entirely (e.g. nested if-statements)? If you used &&, why is that a better choice than || (and vice-versa)?</h2>
-  <p></p>
+  <h2>What's wrong with this conditional: if (age < 16 && age > 21)?</h2>
+  <p>There is no possible way for an age to be less than 16 and at the same time being greater than 21.</p>
   
-  <h2>What types of input produce a value of NaN after parsing? Is it important to check for NaN values? Is it possible for a NaN value to trigger any of the other if-statements? If so, how and why?</h2>
-  <p></p>
-  
-  <h2>What questions do you have?</h2>
-  <p></p>
+  <h2>Let's say that your program needs to be easy to modify so that it works in parts of the country/world where the age ranges are different. How would you replace the numbers in your if statements with variables to make the program make sense? Or is it easier to just have the numbers be there? Does it matter?</h2>
+  <p>You would declare variables before the if else statement and then in the condition you would just place the variable name instead of age number. Since this is a small program it probably wouldn't matter, but if we added to it or if it was more complicated it would be easier to have the variables.</p>
   
 </body>
 </html>
